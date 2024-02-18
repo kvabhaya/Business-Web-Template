@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blur-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/lago-1257-home-office-36e8-with-air-desk-1593015859.jpg?crop=1.00xw:0.937xh;0,0.0537xh&resize=2048:*");
+    background-size: cover;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+header {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-bars {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.box {
+    width: 600px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+h1{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+p {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button-1 {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(24, 170, 228);
+    margin: 0 10px;
+    text-decoration:none;
+}
+
+.button-2 {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(235, 112, 12);
+    margin: 0 10px;
+    text-decoration:none;
+}
+
+.text {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.solutions {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(24, 170, 228);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.solution-text {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.submit-box {
+    width: 800px;
+    height: 100px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.form-box {
+    /* justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; */
+    margin: 30px 80px;
+} 
+
+.form-box input[type="text"],
+.form-box input[type="email"] {
+    width: 250px;
+    height: 40px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.form-box input[type="submit"] {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(235, 112, 12);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border: none;
+}
